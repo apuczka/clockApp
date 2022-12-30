@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-image: url('images/northern-lights-7677986_1920.jpg');
+}
+
+section {
+  padding: 50px;
+}
+.time-section {
+  margin-top: 200px;
+}
+.quotes {
+  display: flex;
+  
+}
+.quote {
+  width: 500px;
+  
+}
+
+.quote-author {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.hello {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.clock {
+  font-size: 100px;
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+.time {
+  display: flex;
+  align-items: baseline;
+}
+.time p {
+  font-size: 20px;
+}
+.location {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  border-radius: 20px;
+  width: 80px;
+  height: 30px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  border: none;
+}
