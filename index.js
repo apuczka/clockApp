@@ -33,4 +33,17 @@ setInterval(function() {
 },1000)
 
 
+const hello = document.querySelector('.hello');
 
+if (new Date() > 12 && new Date() < 18) {
+  hello.innerHTML = "Good afternoon,"
+} else if(new Date() > 18) {
+  hello.innerHTML = "Good evening,"
+} else {
+  hello.innerHTML = "Good morning,"
+}
+
+
+console.log(new Date(Date.UTC(2022)))
+
+document.querySelector('.utc')

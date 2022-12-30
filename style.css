@@ -10,14 +10,14 @@ body {
 }
 
 section {
-  padding: 50px;
+  padding: 90px;
 }
 .time-section {
   margin-top: 200px;
 }
 .quotes {
   display: flex;
-  
+
 }
 .quote {
   width: 500px;
