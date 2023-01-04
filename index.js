@@ -46,4 +46,4 @@ if (new Date() > 12 && new Date() < 18) {
 
 console.log(new Date(Date.UTC(2022)))
 
-document.querySelector('.utc')
+document.querySelector('.utc');
